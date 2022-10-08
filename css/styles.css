@@ -18,7 +18,6 @@ text второстепенный #000000 черный
   --prime-bgc-color: #f5f5f5;
   --hero-bgc-color: #2f303a;
   --section-bgc-color: #f5f4fa;
-  --header-border:#ECECEC;
 }
 body {
   background-color: var(--footer-text-logo-color);
@@ -27,62 +26,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-.section {
-  width: 1630px;
-  padding-top: 94px;
-  padding-left: 15px;
-  padding-bottom: 94px;
-  padding-right: 15px;
-}
 .list {
   list-style: none;
 }
 .header {
   background-color: var(--footer-text-logo-color);
-   width: 1630px;
-   border: 1px solid var(--header-border);
-}
-.container-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu {
-  display: flex;
-  margin-left: 93px;
-}
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.contact-menu {
-  display: flex;
-  margin-left: 344px;
-  margin-right: 215px;
-}
-.nav-menu:not(:first-child) {
-  margin-left: 50px;
 }
 .prime-logo {
   color: var(--prime-text-logo-color);
@@ -91,9 +39,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .secondary-logo {
   color: var(--secondary-text-logo-color);
@@ -129,12 +74,6 @@ ul {
 .hero-section {
   background-color: var(--hero-bgc-color);
   color: var(--footer-text-logo-color);
-  display: flex;
-  
-}
-.hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -142,9 +81,6 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
- text-align: center;
- max-width: 696px;
-
 }
 .hero-button {
   background-color: var(--prime-text-logo-color);
@@ -157,10 +93,6 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  display: block;
-  margin: auto;
-  
-
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -179,17 +111,6 @@ ul {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-
-.advantage-container {
- 
-}
-.details {
- display: flex;
-  
-}
-.details :not(:first-child) {
-  margin: 30px;
 }
 .secondary-title {
   color: var(--text-nav-color);
