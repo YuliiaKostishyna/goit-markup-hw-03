@@ -54,7 +54,7 @@ html {
   box-sizing: inherit;
 }
 .container {
-  max-width: 1230px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -87,7 +87,7 @@ html {
 }
 .header {
   background-color: var(--footer-text-logo-color);
-  border: 1px solid var(--border-header);
+  border-bottom: 1px solid var(--border-header);
 }
 .prime-logo {
   color: var(--prime-text-logo-color);
@@ -111,12 +111,12 @@ html {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 32px 0;
+  display: block;
 }
 .nav-site:hover,
 .nav-site:focus {
   color: var(--prime-text-logo-color);
 }
-
 .current {
   color: var(--prime-text-logo-color);
 }
@@ -128,20 +128,22 @@ html {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 32px 0;
+  display: flex;
 }
 .contact:hover,
 .contact:focus {
   color: var(--prime-text-logo-color);
 }
+
 .hero-section {
   background-color: var(--hero-bgc-color);
   color: var(--footer-text-logo-color);
   width: 1600px;
   margin: 0 auto;
+  padding: 200px 15px;
 }
 .container-hero {
-  width: 1230px;
-  padding: 200px 15px;
+  width: 1200px;
   margin: 0 auto;
 }
 .hero-title {
@@ -170,6 +172,8 @@ html {
   margin: 0 auto;
   margin-top: 30px;
   padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -192,9 +196,11 @@ html {
 .details {
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 .advantage-section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .details-title {
   max-width: 270px;
@@ -210,9 +216,9 @@ html {
 }
 
 .skils-container {
-  padding-top: 94px;
-  width: 1230px;
-  padding-top: 94px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 94px;
   margin: 0 auto;
 }
@@ -226,11 +232,11 @@ html {
 }
 .tasks {
   max-width: 370px;
-  margin-top: 50px;
 }
 .team-container {
-  padding-top: 94px;
-  width: 1230px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 94px;
   padding-bottom: 94px;
   margin: 0 auto;
@@ -250,7 +256,6 @@ html {
 .team-cards {
   background-color: var(--footer-text-logo-color);
   max-width: 270px;
-  margin-top: 50px;
 }
 .team-cards-title {
   color: var(--text-nav-color);
@@ -261,7 +266,7 @@ html {
   text-align: center;
 }
 .cards {
-padding: 30px 61px;
+padding: 30px 30px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
@@ -306,7 +311,6 @@ border-radius: 0px 0px 4px 4px;
 
 .main {
   background-color: var(--footer-text-logo-color);
-  width: 1600px;
   padding: 94px 0;
   margin: 0 auto;
 }
@@ -351,7 +355,7 @@ border-radius: 0px 0px 4px 4px;
 .nav-buttons {
   display: flex;
   gap: 8px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .products {
